@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PhotoFrameActivity"
+            android:screenOrientation="landscape"> <!--가로로만 띄우겠다.-->
+
+        </activity>
     </application>
 
 </manifest>
